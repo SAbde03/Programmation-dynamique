@@ -26,7 +26,7 @@ public class presentation2 {
         Method setDaoMethod = cMetier.getMethod("setDao", IDao.class);
         setDaoMethod.invoke(metier, dao);
 
-        // Invocation d'une méthode sur l'instance de Métier et affichage du résultat
+        //  Invocation d'une méthode sur l'instance de Métier et affichage du résultat
         System.out.println("Résultats = " + metier.calcul());
 
         scanner.close();
